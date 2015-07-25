@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "karma": "*",
+    "karma-phantomjs2-launcher": "*",
+    "karma-spec-reporter": "*",
+    "karma-mocha": "*",
+    "karma-browserify": "*",
+    "browserify": "*",
+    "coffeeify": "*",
+    "power-assert": "*"
+  },
+  "scripts": {
+    "test": "karma run",
+    "start": "karma start"
+  }
+}
