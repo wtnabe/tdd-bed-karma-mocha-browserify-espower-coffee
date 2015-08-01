@@ -38,8 +38,8 @@ module.exports = function(config) {
 
     browserify: {
       debug: true,
-      transform: ['coffeeify'],
-      extensions: ['.coffee']
+      transform: ['coffeeify', 'espowerify'],
+      extensions: ['.coffee', '.js']
     },
 
 
@@ -81,7 +81,8 @@ module.exports = function(config) {
       'karma-phantomjs2-launcher',
       'karma-spec-reporter',
       'karma-browserify',
-      'coffeeify'
+      'coffeeify',
+      'espowerify'
     ]
   }
   )
